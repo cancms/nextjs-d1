@@ -32,7 +32,7 @@ export default function Home() {
       {/* Navbar */}
       <nav className="w-full flex justify-between items-center px-8 py-4 bg-white shadow-md sticky top-0 z-50">
         <div className="flex items-center space-x-3">
-          <img src="/profile.jpg" alt="Sheng Liu" className="h-10 w-10 rounded-full" />
+          <img src="/nextjs-d1/profile.jpg" alt="Sheng Liu" className="h-10 w-10 rounded-full" />
           <h1 className="text-2xl font-semibold" style={{ fontFamily: 'Arial, sans-serif' }}>Sheng Liu</h1>
         </div>
         <div className="space-x-6 text-lg" style={{ fontFamily: 'Arial, sans-serif' }}>
@@ -44,7 +44,7 @@ export default function Home() {
 
       {/* Main Section */}
       <section id="home" className="flex flex-col lg:flex-row items-center justify-center py-16 px-6 lg:px-24 bg-white shadow rounded-2xl mx-4 lg:mx-24 mt-8">
-        <img src="/profile.jpg" alt="Sheng Liu" className="w-65 h-65 rounded-2xl shadow-lg mb-8 lg:mb-0 lg:mr-12 relative -left-16 -top-10" />
+        <img src="/nextjs-d1/profile.jpg" alt="Sheng Liu" className="w-65 h-65 rounded-2xl shadow-lg mb-8 lg:mb-0 lg:mr-12 relative -left-16 -top-10" />
         <div className="max-w-2xl">
           <h2 className="text-5xl font-semibold mb-4 text-[#820000]" style={{ fontFamily: 'GeistVF, sans-serif' }}>Sheng Liu, PhD</h2>
           <div className="flex items-center space-x-6 text-lg text-[#333333]" style={{ fontFamily: 'GeistVF, sans-serif'}}>
