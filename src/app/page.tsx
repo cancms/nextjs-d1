@@ -6,7 +6,7 @@ import { useState, useEffect } from 'react';
 import { Mail, Github, Twitter, BookOpen } from 'lucide-react';
 
 
-import getConfig from 'next/config';
+// import getConfig from 'next/config';
 
 
 export default function Home() {
