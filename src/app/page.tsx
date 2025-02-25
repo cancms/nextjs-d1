@@ -5,7 +5,14 @@ import { useState, useEffect } from 'react';
 // import { Button } from "@/components/ui/button";
 import { Mail, Github, Twitter, BookOpen } from 'lucide-react';
 
+
+import getConfig from 'next/config';
+
+
 export default function Home() {
+
+  const { assetPrefix } = getConfig()
+
   const [textgradStars, setTextgradStars] = useState<number | string | null>(null);
   const [octotoolsStars, setOctotoolsStars] = useState<number | string | null>(null);
 
