@@ -11,7 +11,7 @@ import getConfig from 'next/config';
 
 export default function Home() {
 
-  const { assetPrefix } = getConfig()
+  // const { assetPrefix } = getConfig()
 
   const [textgradStars, setTextgradStars] = useState<number | string | null>(null);
   const [octotoolsStars, setOctotoolsStars] = useState<number | string | null>(null);
